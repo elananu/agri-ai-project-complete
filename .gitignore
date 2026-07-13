@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/agri_ai.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/models/*.pt
+.env
+backend/.env
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# Training data
+agri-ai/backend/training/
+
+# Uploaded images
+agri-ai/backend/uploads/
+
+# Database (optional)
+*.db

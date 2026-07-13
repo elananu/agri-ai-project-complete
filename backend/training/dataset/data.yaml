@@ -1,0 +1,5 @@
+path: .
+train: images/train
+val: images/val
+nc: 29
+names: ['apple_leaf', 'apple_rust_leaf', 'apple_scab_leaf', 'bell_pepper_leaf', 'bell_pepper_leaf_spot', 'blueberry_leaf', 'cherry_leaf', 'corn_gray_leaf_spot', 'corn_leaf_blight', 'corn_rust_leaf', 'grape_leaf', 'grape_leaf_black_rot', 'peach_leaf', 'potato_leaf', 'potato_leaf_early_blight', 'potato_leaf_late_blight', 'raspberry_leaf', 'soyabean_leaf', 'squash_powdery_mildew_leaf', 'strawberry_leaf', 'tomato_early_blight_leaf', 'tomato_leaf', 'tomato_leaf_bacterial_spot', 'tomato_leaf_late_blight', 'tomato_leaf_mosaic_virus', 'tomato_leaf_yellow_virus', 'tomato_mold_leaf', 'tomato_septoria_leaf_spot', 'tomato_two_spotted_spider_mites_leaf']
