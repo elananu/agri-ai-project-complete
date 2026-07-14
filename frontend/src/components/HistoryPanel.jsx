@@ -1,5 +1,7 @@
 import React from 'react';
 
+const API_BASE = import.meta.env.VITE_API_URL || '';
+
 export default function HistoryPanel({ history }) {
   return (
     <div className="card history-card">
@@ -8,7 +10,7 @@ export default function HistoryPanel({ history }) {
       <div className="history-list">
         {history.map((item) => (
           <div key={item.id} className="history-item">
-            <img src={`/uploads/${item.image_filename}`} alt="scan" />
+            <img src={`${API_BASE}/uploads/${item.image_filename}`} alt="scan" />
             <div className="history-meta">
               <span>{new Date(item.created_at).toLocaleString()}</span>
               <span>
